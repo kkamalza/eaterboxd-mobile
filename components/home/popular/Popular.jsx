@@ -16,9 +16,7 @@ const Popular = () => {
     keyword: 'cruise',
     type: 'restaurant'}) 
 
-  //const {data, isLoading, error } = useFetch () 
-
-    console.log("TEST" + data);
+    console.log(data);
 
   return (
     <View style={styles.container}>
